@@ -131,12 +131,13 @@ public:
         assert(hashGenesisBlock == uint256("0x00000207174efa089d14b8d2ca6f038101346b4919b00ffae118964db25bb796"));
         assert(genesis.hashMerkleRoot == uint256("0x6356af47863573be0a5bc045debe799a4d080115aa95425f99435d98c26e8fbe"));
 		
-		vSeeds.push_back(CDNSSeedData("s1.worldcryptoforumcoin.com", "s1.worldcryptoforumcoin.com"));
-		vSeeds.push_back(CDNSSeedData("s2.worldcryptoforumcoin.com", "s2.worldcryptoforumcoin.com"));
-		vSeeds.push_back(CDNSSeedData("s3.worldcryptoforumcoin.com", "s3.worldcryptoforumcoin.com"));
-		vSeeds.push_back(CDNSSeedData("s4.worldcryptoforumcoin.com", "s4.worldcryptoforumcoin.com"));
-		vSeeds.push_back(CDNSSeedData("s5.worldcryptoforumcoin.com", "s5.worldcryptoforumcoin.com"));
-		vSeeds.push_back(CDNSSeedData("s6.worldcryptoforumcoin.com", "s6.worldcryptoforumcoin.com"));
+		vSeeds.push_back(CDNSSeedData("96.30.192.205"));
+		vSeeds.push_back(CDNSSeedData("155.138.198.246"));
+		vSeeds.push_back(CDNSSeedData("96.30.192.118"));
+		vSeeds.push_back(CDNSSeedData("155.138.219.229"));
+		vSeeds.push_back(CDNSSeedData("96.30.192.185"));
+		vSeeds.push_back(CDNSSeedData("167.179.89.214"));
+		vSeeds.push_back(CDNSSeedData("207.148.112.40"));
 		
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 135);

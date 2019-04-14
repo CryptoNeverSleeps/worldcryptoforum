@@ -202,8 +202,13 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
 					if(nSubsidy * 90 / 100 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}
+				} else if(nHeight > 200000) {
+					nSubsidy = 10 * COIN;
+					if(nSubsidy * 90 / 100 == txout.nValue) {
+						sub.type = TransactionRecord::MNReward;
+					}	
 				} else if(nHeight > 500000) {
-					nSubsidy = 100 * COIN;
+					nSubsidy = 5 * COIN;
 					if(nSubsidy * 90 / 100 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}

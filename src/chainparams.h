@@ -168,7 +168,7 @@ else if(nHeight > 110000 && nHeight <= 130000) {return 10000;}
 else if(nHeight > 130000 && nHeight <= 150000) {return 15000;}
 else if(nHeight > 150000 && nHeight <= 170000) {return 30000;}
 else if(nHeight > 170000 && nHeight <= 200000) {return 45000;}
-else if(nHeight > 200000) {return 100000;}
+else if(nHeight > 200000) {return 50000;}
 }
 
 inline int64_t LAST_POW_BLOCK(int nHeight) {
